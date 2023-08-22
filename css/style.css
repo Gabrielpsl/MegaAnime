@@ -1,0 +1,103 @@
+body {
+    background-color: #212429;
+    margin: 0px;
+}
+
+.cabecalho {
+    background-color: #702cf5;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 130px 20px 50px;
+}
+
+.titulo {
+
+}
+
+.navegacao {
+    display: flex;
+}
+
+.navegacao>ul {
+    display: flex;
+    gap: 70px;
+}
+
+.navegacao>ul>li>a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.conteudo {
+    display: flex;
+    padding: 90px 140px 90px 140px;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.ladoesquerdo {
+
+}
+
+.ladoesquerdo>img {
+    width: 600px;
+    background-color: #702cf5;
+}
+
+.ladodireito {
+
+}
+
+.ladodireito>h1 {
+    color: aliceblue;
+    font-size: 50px;
+    padding: 160px 0 0 10px;
+}
+
+.ladodireito>p {
+    font-size: 20px;
+    color: aliceblue;
+    padding: 30px 0 0 10px;
+}
+
+footer {
+    background-color: #702cf5;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.rodapelogo>h1 {
+    color: aliceblue;
+}
+
+.rodapelinks>ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+.rodapelinks>ul>li>a {
+text-decoration: none;
+color: aliceblue;
+}
+
+.rodapesocial {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px 0 0;
+    gap: 15px 0 0;
+}
+
+.rodapesocial>a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.rodapebotoes {
+    display: flex;
+    justify-content: center;
+}
