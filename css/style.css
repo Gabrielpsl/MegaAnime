@@ -1,21 +1,30 @@
 body {
-    background-color: #212429;
+    background-color: #2b2c30;
     margin: 0px;
 }
 
 .cabecalho {
-    background-color: #702cf5;
+    background-color: #ff1457;
     display: flex;
     justify-content: space-between;
     padding: 20px 130px 20px 50px;
+    align-items: center;
 }
 
-.titulo {
+.cabecalho>a {
+    text-decoration: none;
+}
 
+
+.titulo {
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .navegacao {
     display: flex;
+    padding: 10px;
 }
 
 .navegacao>ul {
@@ -26,6 +35,13 @@ body {
 .navegacao>ul>li>a {
     text-decoration: none;
     color: aliceblue;
+    font-size: 20px;
+
+
+        &:hover {
+            color: aqua;
+            font-size: 21px;
+        }
 }
 
 .conteudo {
@@ -33,6 +49,13 @@ body {
     padding: 90px 140px 90px 140px;
     justify-content: space-around;
     gap: 50px;
+    height: 650px;
+    align-items: center;
+}
+
+.introvideo {
+    padding: 5px;
+    background-color: black;
 }
 
 .ladoesquerdo {
@@ -40,8 +63,8 @@ body {
 }
 
 .ladoesquerdo>img {
-    width: 600px;
-    background-color: #702cf5;
+    width: 500px;
+    background-color: black;
 }
 
 .ladodireito {
@@ -49,19 +72,20 @@ body {
 }
 
 .ladodireito>h1 {
-    color: aliceblue;
+    color: black;
     font-size: 50px;
     padding: 160px 0 0 10px;
+    
 }
 
 .ladodireito>p {
     font-size: 20px;
-    color: aliceblue;
+    color: black;
     padding: 30px 0 0 10px;
 }
 
 footer {
-    background-color: #702cf5;
+    background-color: #ff1457;
 }
 
 .rodape {

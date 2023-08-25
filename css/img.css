@@ -1,7 +1,23 @@
+.anime {
+    background-color: darkgray;
+    padding: 10px;
+        &:hover {
+            padding: 12px;
+            background-color: rgb(7, 78, 31);
+        }
+}
+
+.anime img {
+    height: 300px;
+}
+
 .conteudopag2 {
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    padding: 100px;
+    background-color: aliceblue; 
+    width: 1800px; 
 }
 
-.conteudopag2>img {
-
-}
